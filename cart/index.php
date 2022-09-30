@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Merch</title>
-  <link rel="stylesheet" type="text/css" href="color2.css">
+  <link rel="stylesheet" type="text/css" href="../css/color2.css">
   <link rel="icon" href="/rp3/images/Xtra.png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <link href= "css/bootstrap.min.css" rel="stylesheet"/>
     <script src="js/bootstrap.bundle.js"></script>
-    <link rel="stylesheet" href="color3.css">
+    <link rel="stylesheet" href="../css/color3.css">
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="js/x.js"></script>
     <script src="https://kit.fontawesome.com/5f8e4dddee.js" crossorigin="anonymous"></script>
@@ -22,9 +22,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">	<title>Merch</title>
 <script>
  var sites = [
-  '/rp3/code.html',
-  '/rp3/saint.html',
-      '/rp3/warrior.html'
+  '../code.html',
+  '../rp3/saint.html',
+      '../warrior.html'
   ];
 
 
@@ -44,10 +44,10 @@
 	 	<div class="mr-auto    text-white"></div>
 	 	<ul class="navbar-nav">
 	 		<li class="nav-item text-white">
-	 			<a href="/RP3/Preview.html" class="nav-link">PREVIEWS</a>
+	 			<a href="../Preview.html" class="nav-link">PREVIEWS</a>
 	 		</li>
 			 <li class="nav-item text-white">
-	 			<a href="/RP3/Reviews.html" class="nav-link">REVIEWS</a>
+	 			<a href="../Reviews.html" class="nav-link">REVIEWS</a>
 	 		</li>
 			 <li class="nav-item">
         <a class="nav-link" href="#" onclick="randomSite();">MUST-WATCH</a>

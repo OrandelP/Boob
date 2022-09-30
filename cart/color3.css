@@ -10,7 +10,7 @@ body{
   height: 950px;
   background: radial-gradient(circle at -20% 60%, #060b0d, #030b10, #050a16, #0a0817); overflow: hidden;
   overflow: hidden;
-  background-image: url(/rp3/images/cartgif.gif);  
+  background-image: url(../images/cartgif.gif);  
   background-size:100%;
 }
 

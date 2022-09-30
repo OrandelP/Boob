@@ -10,7 +10,7 @@ body{
   height: 1200px;
   background: radial-gradient(circle at -20% 60%, #060b0d, #030b10, #050a16, #0a0817); overflow: hidden;
   overflow: hidden;
-  background-image: url(/rp3/images/rain.gif);  
+  background-image: url(../images/rain.gif);  
   background-size:100%;
 
   
@@ -216,7 +216,7 @@ color: white;
   border-radius: 10px 10px 0 0;
   width: 300px;
   height: 169px;
-  background-image: url(images/review/spy.png);
+  background-image: url(../images/review/spy.png);
   background-size:     cover;                     
   background-repeat:   no-repeat;
   background-position: center center;  
@@ -225,7 +225,7 @@ color: white;
 }
 
 #win2{
-  background-image: url(images/review/shehulk.jpg);
+  background-image: url(../images/review/shehulk.jpg);
   background-size:contain        ;           
   background-repeat:   no-repeat;
   background-position: center center;  
