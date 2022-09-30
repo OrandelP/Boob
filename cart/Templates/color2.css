@@ -1,0 +1,403 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+  width: 0px; 
+}
+
+body{
+  background: rgb(1,4,9);
+  height: 1200px;
+  background: radial-gradient(circle at -20% 60%, #060b0d, #030b10, #050a16, #0a0817); overflow: hidden;
+  overflow: hidden;
+}
+
+#carouselExampleCaptions{
+    margin: 0;
+    width: 100%;
+    height: 550px;
+}
+
+.carousel .carousel-control {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.carousel-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    padding-bottom: 50px;
+}
+
+.carousel-item {
+    height: 100px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }  
+
+.carousel-item{
+    height: 550px;
+    width: 100%;
+    min-height: 100%;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     background: #000;
+     opacity: 0.1;
+}
+
+.carousel-caption{
+    bottom: 10px;
+}
+
+.slider-btn .btn{
+    background-color: red;
+    columns: white;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.carousel-indicators {
+    bottom:-60px;
+  }
+  
+  .t1{
+font-size: 35px;
+  }
+  
+  .carousel-caption h5{
+font-size: 40px;
+  }
+
+  .carousel-caption p{
+font-size: 17px;
+  }
+
+  .carousel-caption {
+    left: 5%;
+    text-align: left;
+    max-width: 300px;
+    right: auto;
+    padding:5px;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px; /* change width */
+  height: 10px; /* change height */
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: white;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  transition: opacity .6s ease;
+  border-radius: 100%; 
+}
+
+
+
+.avatar{
+    width: 30%;
+    object-fit: cover;
+    object-position: bottom;
+        position:absolute;
+        top: 25px;
+        left: 25px;
+        z-index: 2;
+      }
+      .avatar2{
+        width: 40%;
+    object-fit: cover;
+    object-position: bottom;
+        position:absolute;
+        top: 5px;
+        right: 430px;
+        z-index: 2;
+          }
+
+          .avatar3{
+            width: 40%;
+            padding-left: 100px; 
+            object-fit: cover;
+            object-position: bottom;
+                position:absolute;
+                top: 35px;
+                left: 25px;
+                z-index: 2;
+              }
+
+.navbar-expand-sm{
+  display: flex;
+  background: rgb(2,2,2);
+  background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 32%, rgba(2,2,2,1) 89%, rgba(2,2,2,1) 100%, rgba(2,2,2,1) 100%, rgba(2,2,2,1) 100%, rgba(2,2,2,1) 171%);
+  
+}
+.nav-link{ 
+  color: white;
+   
+}
+
+.nav-link:hover{ 
+  color: yellow;
+  
+}
+
+.fa-cart-shopping-fast{
+color: white;
+  background: white;
+  font-size: 200px;
+}
+.navbar-nav > li{
+  margin-left:5px;
+  margin-right:20px;
+  padding-right: 5px;
+}
+
+.sect{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.window{
+  text-decoration: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  background: black;
+  transition: 1s;
+}
+ 
+ 
+.window:hover{
+  text-decoration: none;
+  transform:scale(1.1);
+}
+
+.box{
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+  width: 300px;
+  height: 169px;
+  background-image: url(images/review/spy.png);
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  
+  
+}
+
+#win2{
+  background-image: url(images/review/shehulk.jpg);
+  background-size:contain        ;           
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  text-decoration: none;
+}
+#win3{
+  background-image: url(images/review/res.jpeg);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
+
+#win4{
+  background-image: url(images/review/strang.jpg);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
+}
+#win5{
+  background-image: url(images/review/lastwe.jpeg);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
+}
+#win6{
+  background-image: url(images/review/demons.png);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
+}
+
+#win7{
+  background-image: url(images/review/andor.jpg);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
+}
+
+#win8{
+  background-image: url(images/review/myheroaca.jpg);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
+}
+
+#win9{
+  background-image: url(images/review/abbot.jpg);
+  background-size:     contain;                     
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
+}
+
+hr{
+  color: white;
+  border-width: 1.5px white;
+  width:80%;
+  margin:0 auto;
+}
+.infor{
+  text-decoration: none;
+    text-align: center;
+  margin: auto;
+  padding: 5px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+h3{
+  color: white;
+  font-size: 60px;
+  padding: 20px 0 60px 40px;
+}
+
+.end{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.end2{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+}
+
+.footer{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 40px 0;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: auto;
+  bottom: -200px;
+
+}
+
+.footer .social{
+  padding: 0 30px 0 0;
+  text-align: right;
+  padding-bottom: 25px;
+color: white
+}
+
+.footer .social a{
+  font-size: 24px;
+  color: inherit;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: right;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover{
+  color: yellow;
+  opacity: 0.9;
+}
+
+.footer ul{
+margin-top: 0;
+padding: 0;
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+}
+
+.footer ul li a{
+color: inherit;
+text-decoration: none;
+opacity: 0.8;
+}
+
+
+.footer ul li{
+display: inline-block;
+padding: 0 15px;
+
+}
+
+.footer ul li a:hover{
+  opacity: 1;
+  color:rgb(255, 239, 21);
+}
+
+.footer .copyright{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+color: rgba(191, 190, 190, 0.726)
+}
+
+.list{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+
+}
+ 
+.fa-copyright, .fa-registered{
+  font-size: 8px;
+  
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: rgb(255 255 255);
+}
+
+.navbar-dark .navbar-nav:hover{
+  color: rgb(255, 234, 0);
+}
