@@ -108,7 +108,7 @@ session_start();
                url:"action.php",
                data:{action:action},
                success:function(data){
-                  alert("you have cleared all item");
+                  alert("you have cleared all item(s)");
                }
             });
         });

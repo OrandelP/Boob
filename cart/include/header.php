@@ -20,9 +20,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">	<title>Merch</title>
 <script>
   var sites = [
-  '/rp3/code.html',
-  '/rp3/saint.html',
-      '/rp3/warrior.html'
+  '../code.html',
+  '../saint.html',
+      '../warrior.html'
   ];
 
   function randomSite() {
@@ -41,7 +41,11 @@
 </style>
 </head>
 <body>
+<?php
+$dirCart = '../cart/';
+$dirRoot = '../';
 
+?>
 	 <nav class="navbar navbar-expand-sm navbar-dark bg-dark class-py-5" navbar-dark>
 
 	 <a class="nav-link" id="face" href="/RP3/index.html">
@@ -50,19 +54,19 @@
 	 	<div class="mr-auto navbar-dark bg-dark text-white"></div>
 	 	<ul class="navbar-nav">
 	 		<li class="nav-item text-white">
-	 			<a href="../../Preview.html" class="nav-link">PREVIEWS</a>
+	 			<a href="<?php echo $dirRoot ?>preview.html" class="nav-link">PREVIEWS</a>
 	 		</li>
 			 <li class="nav-item text-white">
-	 			<a href="../../Reviews.html" class="nav-link">REVIEWS</a>
+	 			<a href="<?=$dirRoot ?>Reviews.html" class="nav-link">REVIEWS</a>
 	 		</li>
 			 <li class="nav-item">
         <a class="nav-link" href="#" onclick="randomSite();">MUST-WATCH</a>
       </li>
 			 <li class="nav-item text-white">
-	 			<a href="../index.php" class="nav-link">MERCH</a>
+	 			<a href="<?=$dirCart ?>index.php" class="nav-link">MERCH</a>
 	 		</li>
 	 		<li class="nav-item text-white">
-	 			<a href="../cart.php" class="nav-link">CART</a>
+	 			<a href="<?=$dirCart ?>cart.php" class="nav-link">CART</a>
 	 		</li>
 	 	</ul>
 	 </nav>
